@@ -560,7 +560,7 @@ strong {
 }
 .swiper {
     width: 100%;
-    padding-bottom: 60px !important;
+    padding-bottom: 80px !important;
     max-width: 900px;
     margin:  0 auto;
 }
@@ -640,7 +640,7 @@ strong {
 .gradient-board{
     border-radius: 10px;
     background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
-    padding:20px 90px 40px;
+    padding:20px;
 }
 .board-title{
     color: #092A5E;
@@ -745,5 +745,8 @@ strong {
     align-items: center;
     justify-content: center;
 
+}
+.image-move-2{
+    margin-bottom: 20px;
 }
 

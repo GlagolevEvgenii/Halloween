@@ -19,7 +19,7 @@ const embedEngine = {
                 320: {
                     slidesPerView: 1,
                 },
-                767: {
+                900: {
                     slidesPerView: 2.51,
                     spaceBetween: 20
                 }

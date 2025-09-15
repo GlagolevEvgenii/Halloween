@@ -10,9 +10,6 @@
     }
 }
 @media screen and (max-width: 768px) {
-    .mobile-menu {
-        display:block;
-    }
     body {
         margin-top:47px;
     }
@@ -33,6 +30,11 @@
         width: 200%;
     }
 
+}
+@media screen and (max-width: 1024px){
+    .mobile-menu {
+        display:block;
+    }
 }
 
 
@@ -59,17 +61,7 @@
     .pt-60 {
         padding-top: 80px!important;
     }
-    .mobile-menu {
-        height:40%;
-    }
-    .mobile-menu__bar {
-        display:none;
-    }
-    .hamburger {
-        top:11px;
-        right: 52px;
-        display:none;
-    }
+
     .container, .container-nav {
         margin-left:auto;
         margin-right: auto;
@@ -94,14 +86,7 @@
     .hero-title span  {
         font-size: 36px;
     }
-    .nav {
-        display:-webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-    }
+
     .column-wrapper{
         grid-template-columns: repeat(3, 1fr);
     }
@@ -158,32 +143,41 @@
     .board-blue .section-title{
         color: #FFFFFF;
     }
+    .swiper {
+        padding-bottom: 60px !important;
+    }
+    .gradient-board{
+        padding:20px 90px 40px;
+    }
+    .section-footer{
+        padding: 313px 0 50px;
+    }
 }
-@media screen and (min-width: 1000px) {
-    .section-figure {
-        display: flex;
-        align-items: center
-    }
-
-    .section-figure img, .section-figure picture {
-        width: auto;
-    }
-
-    .section-figure__caption {
-        max-width: 531px;
-        position: absolute;
-        left: 16px;
-        padding: 30px;
-        top: 50%;
-        transform: translateY(-50%);
-    }
-    #cutoutBottomRight{
-        display: block;
-    }
+@media screen and (min-width: 1025px){
 
 }
+
 
 @media(min-width: 1200px) {
+    .nav {
+        display:-webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .mobile-menu {
+        height:40%;
+    }
+    .mobile-menu__bar {
+        display:none;
+    }
+    .hamburger {
+        top:11px;
+        right: 52px;
+        display:none;
+    }
     .section-title {
         font-size:30px;
     }
@@ -208,9 +202,7 @@
     .nav-list--link {
         line-height: 19px;
     }
-    .section-footer{
-        padding: 313px 0 50px;
-    }
+
     .swiper-button-next, .swiper-button-prev {
         display: flex!important;
     }
